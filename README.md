@@ -1,89 +1,152 @@
 # 💸 App de Organização de Finanças Pessoais com Vibe Coding
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+# Finny — Finanças Pessoais Sem Esforço
 
-## ✨ O que é Vibe Coding
+> **Desafio de Projeto:** Desenvolvido para a plataforma **DIO (Digital Innovation One)**   
+> **Status do Projeto:** Concluído  
+> **Plataforma de Desenvolvimento:** Lovable (Web App)  
+> **Banco de Dados:** Supabase / PostgreSQL  
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+O **Finny** é um aplicativo web para gestão de finanças pessoais criado de forma ágil durante um desafio prático da **DIO**. O objetivo do projeto foi estruturar um **PRD (Product Requirement Document)** completo para guiar uma Inteligência Artificial (Lovable) na construção de uma ferramenta que elimina a complexidade e a burocracia das planilhas tradicionais.
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+---
 
-## 🎯 Desafio
+## Sobre o App
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
+O Finny foi desenhado para ser uma ferramenta "anti-planilha". Em vez de tabelas chatas e formulários longos, o usuário interage com o app de forma natural, rápida e visual.
 
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
+### Diferenciais do Produto
+* **Registro em 3 Segundos:** Chega de perder tempo digitando detalhes. O app conta com um motor de Inteligência Artificial que entende o que você escreve e anota seu gasto automaticamente.
+* **Mascote Dinâmico:** Uma baleia fofa e simpática acompanha sua evolução financeira, reagindo ao seu saldo com empatia e sem julgamentos.
+* **Indicador "Dinheiro Livre":** Mostra direto na tela o quanto você pode gastar na semana ou no mês sem passar sufoco.
+* **Lojinha e Gamificação:** Registrar seus gastos com frequência rende moedas virtuais (*Finny Coins*) que servem para comprar roupinhas e acessórios para personalizar o seu mascote!
 
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
+---
 
-## 🪄 Etapas do Desafio
+## Demonstração & Interações
 
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
+Aqui estão os registros visuais do aplicativo funcionando:
 
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
+### Interface do Aplicativo
 
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
+<img width="1217" height="740" alt="finny " src="https://github.com/user-attachments/assets/90ead017-101b-4677-b6e3-08c8e13d1639" />
+<img width="1221" height="750" alt="finny 2" src="https://github.com/user-attachments/assets/3c564701-1635-4a27-b93f-8aa6da16346f" />
 
-```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+*Tela principal mostrando o Dinheiro Livre, o Termômetro de Gastos e a nossa Baleia Mascote.* 
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+---
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+## Documento de Requisitos do Produto (PRD)
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+Este é o documento completo que serviu de guia e instrução base para a Inteligência Artificial estruturar e programar o aplicativo:
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
-```
+<details>
+<summary><b>Clique aqui para abrir o PRD Completo 📄</b></summary>
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+### 1. Visão Geral do Produto
+* **Proposta de valor:** Registro de transações em menos de 3 segundos.
+* **Diferencial:** Interface minimalista + motor de IA em linguagem natural.
+* **Experiência:** Mascote dinâmico e interativo (baleia fofa, simpática, sem traços infantis) que reduz a culpa e a ansiedade financeira.
+* **Design:** Limpo, moderno e minimalista, seguindo a linha do Tailwind CSS.
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+### 2. Objetivos e Público-Alvo
+* **Objetivos:** Reduzir o atrito na digitação, promover clareza visual da saúde financeira e humanizar o processo através de psicologia comportamental.
+* **Público-Alvo:** Jovens adultos, estudantes e profissionais em início de carreira que abandonam ferramentas tradicionais por achá-las burocráticas ou punitivas.
 
-### 2. Explorando o Lovable na Prática
+### 3. Requisitos Funcionais
 
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+#### 3.1 Registro Inteligente por IA
+Campo de texto simples onde o usuário digita livremente e a IA processa a frase:
+* *“Gastei 45 reais de uber ontem à noite”* → Valor: R$ 45 | Tipo: Despesa | Categoria: Transporte
+* *“Recebi 150 reais do freela de design hoje”* → Valor: R$ 150 | Tipo: Receita | Categoria: Renda Extra
 
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
+#### 3.2 Teclado de Atalho Rápido
+Teclado numérico simplificado com botões de categorias predefinidas (Alimentação, Transporte, Moradia, Lazer, Saúde) para salvar com apenas um clique.
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+#### 3.3 Dashboard Visual (Termômetro de Gastos)
+Barra de progresso horizontal que indica a saúde financeira com base no limite de gastos definido.
 
-### 3. Entregando o Desafio na DIO
+#### 3.4 Indicador "Dinheiro Livre"
+Cálculo em tempo real do valor disponível para uso:
+$$D_{livre} = R_{total} - (D_{fixas} + M_{poupanca})$$
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+### 4. Mascote Dinâmico e Regras de Humor
+A baleia reage ao estado do orçamento do usuário de forma empática:
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+| Status | Expressão Visual | Tom de Voz (Exemplo) |
+| :--- | :--- | :--- |
+| **Zona Verde** | Feliz, relaxada, com acessórios. | "Tudo sob controle! Você ainda tem R$ X livres para gastar sem culpa." |
+| **Zona Amarela**| Atenta, pensativa, olhar curioso. | "Opa, percebi que seus gastos com delivery subiram. Que tal segurar a onda?" |
+| **Zona Vermelha**| Determinada, estilo heróica. | "Eita, o orçamento apertou! Mas sem pânico, estou aqui para ajudar." |
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+### 5. Customização e Temas Visuais
+* **Clássico Moderno:** Azul Slate — Profissional e limpo.
+* **Menta Conforto:** Verde Sálvia — Tranquilidade e equilíbrio.
+* **Terracota Quente:** Tons de Terra — Acolhedor e orgânico.
+* **Minimalist Dark:** Preto e Cinza — Elegância e discrição.
 
-## 💬 Conclusão
+### 6. Estrutura Técnica (Banco de Dados e Telas)
+* **Tabelas (Supabase):** `Users` (dados e limites do usuário), `Transactions` (histórico de movimentações) e `AI_Insights` (mensagens e humor da baleia).
+* **Telas (Lovable):**
+    1. Dashboard Inicial (Resumos e Mascote).
+    2. Janela de Entrada (Texto da IA ou Teclado Rápido).
+    3. Extrato Histórico (Linha do tempo cronológica).
+    4. Configurações (Troca de temas e lojinha).
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+### 7. Sistema de Gamificação (Lojinha e Conquistas)
+Os usuários ganham *Finny Coins* ao manterem a consistência e cumprirem metas. Essas moedas podem ser trocadas por itens cosméticos para a baleia (óculos escuros, chapéus, gravatas, etc.).
+
+#### Tabela de Progressão de Recompensas:
+* **Primeiro Passo** (Registrar 1ª transação): 50 coins
+* **Consistência Semanal** (Registrar por 5 dias seguidos): 100 coins
+* **Disciplina Verde** (Fechar a semana na Zona Verde): 150 coins
+* **Maratona Financeira** (30 dias seguidos de registro): 500 coins
+* **Zero Dívida** (Um mês sem estourar o orçamento): 400 coins
+* **Finny Master** (Completar todas as conquistas do app): 1000 coins
+
+</details>
+
+---
+
+## Refinamentos & Evolução com o Lovable
+
+Durante o processo de criação do **Finny**, utilizei prompts de refinamento para evoluir o aplicativo além do escopo inicial, adicionando novas ferramentas comportamentais e corrigindo regras de negócio complexas. Abaixo estão os comandos e lógicas implementados nas interações com a IA:
+
+### 1. Novas Ferramentas e Personalização (Prompt de Expansão)
+Solicitei à IA a criação da seção **## 8. Ferramentas Adicionais e Personalização de Dados** para tornar o app mais completo:
+*   **Simulador de Sacrifício (*Psychological Budgeting*):** Uma ferramenta onde o usuário insere um gasto supérfluo recorrente (ex: cafezinho ou delivery) e o sistema projeta o acúmulo financeiro em 1 mês, 6 meses e 1 ano, vinculando o valor poupado a metas reais (como viagens ou eletrônicos).
+*   **Divisor de Contas Rápido (*Social Share*):** Calculadora integrada para dividir despesas de grupo (churrascos, jantares). O sistema calcula a divisão e abate os reembolsos esperados do extrato para não distorcer o saldo real do usuário.
+*   **Perfil Avançado (Calibragem da IA):** Diferenciação de perfis (Fixo/Clássico ou Freelancer) e um cadastro de compromissos fixos recorrentes que já retém o valor do "Dinheiro Livre" logo no início do mês.
+
+### 2. Correção da Lógica de Ciclo Mensal e Receitas Extras
+Para ajustar as regras financeiras do app que não estavam funcionando como o esperado no dia a dia, fiz o seguinte pedido de melhoria para a IA:
+*   **Dia do Pagamento (Ciclo Dinâmico):** Substituição do reset fixo do dia 1 por um campo configurável de 1 a 31. Se o usuário recebe dia 5, o ciclo do termômetro e do dinheiro livre roda sempre do dia 5 ao dia 4 do próximo mês.
+*   **Edição Prática do Orçamento:** Inclusão de um botão/engrenagem para permitir que o usuário altere sua receita fixa e limite de gastos a qualquer momento de forma simples.
+*   **Entrada de PIX / Receitas Extras:** Ajuste no modal de registro rápido (`+ Registrar`). Agora, ao digitar *"Recebi um PIX de 50 reais"*, o valor é somado na hora ao Dinheiro Livre do mês atual, sem bagunçar a receita fixa configurada para os meses seguintes.
+
+### 3. Ajustes Cruciais de Banco de Dados e Reset
+No último ciclo de refinamento, apliquei alterações para melhorar os testes da aplicação:
+*   **Lógica Direta do Dinheiro Livre:** Garantia de que qualquer ganho extra seja injetado direto no saldo disponível para gastar na semana/mês, atualizando a interface em tempo real.
+*   **Botão de Reset Completo (*Recomeçar do Zero*):** Criação de uma função segura na aba de configurações que limpa todas as transações, limpa o extrato e apaga o histórico do banco de dados (Supabase) após uma confirmação, permitindo refazer testes do absoluto zero.
+
+*   Resultado final no Lovable: https://finny-whale-buddy.lovable.app
+
+---
+
+## Reflexão sobre o Processo
+
+### O que funcionou bem?
+*   **Velocidade e Design Visual:** O Lovable conseguiu interpretar a proposta de uma interface minimalista e "anti-planilha" de forma muito ágil. O visual moderno com Tailwind CSS e a estrutura das telas ficaram excelentes logo de primeira.
+*   **Engajamento com o Mascote:** A lógica de comportamento da baleia mascote e o sistema de pontuação por conquistas (Finny Coins) foram mapeados perfeitamente a partir do PRD, criando uma experiência divertida e leve.
+
+### O que não funcionou como o esperado?
+Durante os testes práticos da primeira versão gerada pela IA, notei que algumas regras de negócio essenciais de finanças do mundo real não funcionavam de forma fluida e precisaram de intervenção e refinamento:
+*   **Ciclo Mensal Engessado:** O aplicativo calculava o orçamento iniciando sempre no dia 1º de cada mês, o que não reflete a realidade de quem recebe o salário em outras datas (como dia 5 ou quinto dia útil).
+*   **Lógica de Receitas Extras (PIX):** Inicialmente, quando um ganho extra era registrado (ex: "Recebi um PIX de 50 reais"), o sistema não atualizava o "Dinheiro Livre" para uso imediato ou tentava alterar a receita fixa dos meses seguintes, gerando inconsistência no saldo atual.
+*   **Falta de Flexibilidade e Ambiente de Testes:** Não havia uma forma simples de editar o orçamento fixo na tela principal e, durante o desenvolvimento, o banco de dados ficava poluído com transações antigas, pois não existia uma função de "Reset" para limpar o histórico e recomeçar os testes do zero.
+
+### O que aprendi sobre conversar com IAs?
+*   **Iteração é a Chave:** Aprendi que o primeiro resultado da IA raramente será o produto final perfeito. O segredo está em testar o app como um usuário real, identificar os gargalos de lógica e usar prompts de refinamento bem direcionados para corrigir os fluxos.
+*   **Clareza em Regras de Negócio:** Quanto mais específico eu sou ao descrever o comportamento esperado (como detalhar que o ciclo deve ir do *dia X ao dia Y do próximo mês*), mais assertiva a IA é na hora de reestruturar o código e o banco de dados.
+  
+---
